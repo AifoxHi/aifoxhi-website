@@ -1,2 +1,13 @@
+# These are supported funding model platforms
+
 github: aifoxhi
-github: antfu
+patreon: aifoxhi
+open_collective: blackinkeye
+ko_fi: lolzzz992
+paypal: aifoxhi
+tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
+community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
+liberapay: lolzzz992
+issuehunt: lolzzz992
+otechie: # Replace with a single Otechie username
+custom: [paypal.me/aifoxhi]

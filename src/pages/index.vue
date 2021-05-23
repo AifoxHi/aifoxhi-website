@@ -39,12 +39,16 @@ const { t } = useI18n()
     </p>
 
     <div class="py-2" />
+    <a class="row aikon-button" title="Twitter Page" href="http://paypal.me/aifoxhi">
+      <div class="column difleft"><p class="text-5xl"><il:paypal /><span>EN</span></p></div>
+      <div class="column difright center-text">PayPal</div>
+    </a>
     <a class="row aikon-button" title="Twitter Account" href="http://blog.aifoxhi.tk/">
       <div class="column difleft"><p class="text-5xl"><mdi:feather /><span>JP</span></p></div>
       <div class="column difright center-text">Livedoor Blog (Japan 日本国 ジャパン)</div>
     </a>
     <a class="row aikon-button" title="Twitter Account" href="https://twitter.com/aifoxhi">
-      <div class="column difleft"><p class="text-5xl"><bytesize:twitter /><span>JP</span></p></div>
+      <div class="column difleft"><p class="text-5xl"><bytesize:twitter /><span class="multilang">EN</span><span>JP</span></p></div>
       <div class="column difright center-text">Twitter: @AifoxHi</div>
     </a>
     <a class="row aikon-button" title="Instagram Profile" href="https://instagram.com/aifoxhi">
