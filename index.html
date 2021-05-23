@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/pwa-192x192.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00aba9">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<noscript><div class="legacy_style"><p>Your Browser Block Or Don't Support Javascript, you also could just disable it or you might used TOR Browser (Note that JavaScript didn't existed before 1995). You can try use non JS version but with CSS</p><a href="https://aifoxhi.tk/noscript">--&gt;*リンク | Link*&lt;--</a></div></noscript>
+<!--[if IE]>
+  <div class="legacy_style"
+  <p class="center-textalt">古いブラウザ？ 私は2011年から1996年にかけて? <br> Old browser? between 2011-1996? <br> Debug Info: You using IE9&lt;/Trident/MSHTML</p>
+  <a class="center-textalt" href="old">--&gt;*リンク | Link*&lt;--</a>
+  </div>
+<![endif]-->
+  <div id="app"></div>
+  <script>
+    (function() {
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('color-schema') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+  </script>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

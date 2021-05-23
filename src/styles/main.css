@@ -1,0 +1,178 @@
+@import './markdown.css';
+
+html,
+body,
+#app {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: #121212;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  @apply bg-teal-600 opacity-75;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+.btn {
+  @apply px-4 py-1 rounded inline-block
+    bg-teal-600 text-white cursor-pointer
+    hover:bg-teal-700
+    disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50;
+}
+
+.icon-btn {
+  @apply inline-block cursor-pointer select-none
+    opacity-75 transition duration-200 ease-in-out
+    hover:opacity-100 hover:text-teal-600;
+  font-size: 0.9em;
+}
+
+.aikon-button {
+  @apply font-bold py-2 px-4 rounded dark:border-gray-900;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 1.25rem;
+  display: flex;
+  --tw-bg-opacity: 1;
+  background-color: rgba(13, 148, 136, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  cursor: pointer;
+  border-width: 5px;
+  min-width: 218px;
+  max-height: 80px;
+  max-width: 800px;
+  color: white;
+  margin:0 auto 10px auto;
+}
+
+.aikon-a {
+  display:block;
+}
+
+.aikon-button span.icon {
+  float: left;
+  width: 10px;
+  height: 40px;
+}
+
+.aikon-button-left {
+  background-color: red;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+.center-text {
+  margin: auto;
+}
+
+.ie10plus-notice{
+  display: none;
+}
+
+#ie6 {
+  display: none;
+}
+
+/* IE6 and below */
+* html #ie6  { display: block; text-align: center;}
+
+/* IE7< */
+.selector, {}
+
+//IE 10-11 + Microsoft Edge Legacy
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ie10plus-notice{
+    display: block;
+  }
+  .aikon-button{
+    background-color: #0d9488;
+  }
+  .aikon-translate .aikon-theme {
+    display: none;
+  }
+}
+
+.center-textalt {
+  text-align: center;
+  align: middle;
+}
+
+.legacy_style {
+  text-align: center;
+  align: middle;
+  display: block;
+}
+
+.center-aikon {
+  margin:2vh auto;
+}
+
+.aikon-bg-insta {
+  background-color: purple;
+}
+
+.aikon-bg-insta {
+  background-color: purple;
+}
+
+.aikon-bg-insta {
+  background-color: purple;
+}
+
+.aikon-bg-insta {
+  background-color: purple;
+}
+
+.aikon-bg-insta {
+  background-color: purple;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.difleft {
+  width: 25%;
+}
+.difleft span {
+  font-size: 15px;
+}
+
+.difright {
+  width: 60%;
+}
+
+.multilang {
+  position: absolute;
+}
+
+@media screen and (max-width: 368px) {
+  .multilang {
+      display: none;
+  }
+}

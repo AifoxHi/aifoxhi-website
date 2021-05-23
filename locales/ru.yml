@@ -1,0 +1,15 @@
+button:
+  about: О Сайте
+  back: Назад
+  go: Вперёд
+  home: Домой
+  toggle_dark: Включить ночной режим
+  toggle_langs: Сменить язык
+intro:
+  desc: Своевольный Стартовый Шаблон Vite
+  dynamic-route: Демо динамических путей
+  hi: Привет, {name}!
+  whats-your-name: Как вас зовут?
+not-found: Не найдено
+links:
+  site: Сайт
